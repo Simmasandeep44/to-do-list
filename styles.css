@@ -1,0 +1,39 @@
+body {
+    font-family: cursive, sans-serif;
+    background-color: #d9d0d0;
+}
+
+#task-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background-color: #2cb02c;
+    color: white;
+    border: none;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-item button {
+    background: none;
+    border: none;
+    color: rgb(168, 149, 149);
+    cursor: pointer;
+}
